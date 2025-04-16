@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: Deep Agent
 
 # Controls when the action will run
 on:
@@ -35,9 +35,7 @@ jobs:
         run: npm install
 
       # Clean reports directory and run tests
-      - name: Clean reports directory
-        run: rm -rf reports/* || true
-      
-      # Run tests
-      - name: Run tests
-        run: npm test
+      - name: Clean and run tests
+        run: |
+          rm -rf reports/* || true
+          npm run test
