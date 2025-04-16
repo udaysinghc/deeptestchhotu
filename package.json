@@ -4,7 +4,7 @@
   "description": "Playwright automation framework with Cucumber BDD",
   "main": "index.js",
   "scripts": {
-    "clean": "if exist reports\\* del /s /q reports\\*",
+    "clean": "rimraf reports/* test-results/*",
     "pretest": "npm run clean",
     "test": "cucumber-js --config cucumber.js",
     "test:tag": "cucumber-js --config cucumber.js --tags"
@@ -24,6 +24,7 @@
     "@playwright/test": "^1.35.0",
     "cucumber-html-reporter": "^7.1.0",
     "dotenv": "^16.1.4",
-    "playwright": "^1.35.0"
+    "playwright": "^1.35.0",
+    "rimraf": "^5.0.0"
   }
 }
