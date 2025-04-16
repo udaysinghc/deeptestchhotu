@@ -30,6 +30,11 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
     
+    - name: Create reports directory
+      run: |
+        mkdir -p reports
+        mkdir -p test-results
+    
     - name: Run Cucumber tests
       run: npm run test
       
