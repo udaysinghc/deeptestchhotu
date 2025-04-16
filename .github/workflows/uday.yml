@@ -30,8 +30,12 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
 
-    - name: Clean reports
-      run: npm run clean
+    - name: Clean and prepare directories
+      run: |
+        rm -rf reports || true
+        rm -rf test-results || true
+        mkdir -p reports
+        mkdir -p test-results
       shell: bash
 
     - name: Run Cucumber tests
