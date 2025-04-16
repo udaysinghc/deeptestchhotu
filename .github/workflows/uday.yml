@@ -32,15 +32,15 @@ jobs:
 
     - name: Clean and prepare directories
       run: |
-        rm -rf reports || true
-        rm -rf test-results || true
-        mkdir -p reports
-        mkdir -p test-results
-      shell: bash
+        if exist reports rmdir /s /q reports
+        if exist test-results rmdir /s /q test-results
+        mkdir reports
+        mkdir test-results
+      shell: cmd
 
     - name: Run Cucumber tests
       run: npm run test
-      shell: bash
+      shell: cmd
 
     - name: Upload test results
       if: always()
