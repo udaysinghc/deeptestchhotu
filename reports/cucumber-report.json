@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424791499
+              "duration": 399077200
             }
           },
           {
@@ -26,9 +26,8 @@
               "location": "features\\step_definitions\\login.steps.js:42"
             },
             "result": {
-              "status": "failed",
-              "duration": 2501410199,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://apps.abacus.ai/chatllm/?appId=43c471cb6\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigate (D:\\playwright test autaomation abacus\\pages\\login.page.js:13:21)\n    at BrowserType.<anonymous> (D:\\playwright test autaomation abacus\\features\\step_definitions\\login.steps.js:44:19)"
+              "status": "passed",
+              "duration": 2413626600
             }
           },
           {
@@ -40,8 +39,8 @@
               "location": "features\\step_definitions\\login.steps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2981056499
             }
           },
           {
@@ -53,17 +52,16 @@
               "location": "features\\step_definitions\\dashboard.steps.js:6"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1448571100
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 1558899,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at BrowserType.<anonymous> (D:\\playwright test autaomation abacus\\features\\support\\hooks.js:28:40)"
+              "status": "passed",
+              "duration": 249500500
             }
           }
         ],
@@ -98,7 +96,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 532163599
+              "duration": 472478700
             }
           },
           {
@@ -110,9 +108,8 @@
               "location": "features\\step_definitions\\login.steps.js:7"
             },
             "result": {
-              "status": "failed",
-              "duration": 2054892100,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://apps.abacus.ai/chatllm/?appId=43c471cb6\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigate (D:\\playwright test autaomation abacus\\pages\\login.page.js:13:21)\n    at BrowserType.<anonymous> (D:\\playwright test autaomation abacus\\features\\step_definitions\\login.steps.js:9:19)"
+              "status": "passed",
+              "duration": 2902560999
             }
           },
           {
@@ -124,8 +121,8 @@
               "location": "features\\step_definitions\\login.steps.js:12"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 31265199
             }
           },
           {
@@ -137,8 +134,8 @@
               "location": "features\\step_definitions\\login.steps.js:16"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 18370500
             }
           },
           {
@@ -150,8 +147,8 @@
               "location": "features\\step_definitions\\login.steps.js:28"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 49811499
             }
           },
           {
@@ -163,17 +160,16 @@
               "location": "features\\step_definitions\\login.steps.js:32"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2904606300
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 1132399,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at BrowserType.<anonymous> (D:\\playwright test autaomation abacus\\features\\support\\hooks.js:28:40)"
+              "status": "passed",
+              "duration": 226005799
             }
           }
         ],
@@ -197,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 466748299
+              "duration": 407127999
             }
           },
           {
@@ -209,18 +205,16 @@
               "location": "features\\step_definitions\\login.steps.js:42"
             },
             "result": {
-              "status": "failed",
-              "duration": 1535385199,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://apps.abacus.ai/chatllm/?appId=43c471cb6\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.navigate (D:\\playwright test autaomation abacus\\pages\\login.page.js:13:21)\n    at BrowserType.<anonymous> (D:\\playwright test autaomation abacus\\features\\step_definitions\\login.steps.js:44:19)"
+              "status": "passed",
+              "duration": 2909736299
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 1124499,
-              "error_message": "page.screenshot: Target page, context or browser has been closed\n    at BrowserType.<anonymous> (D:\\playwright test autaomation abacus\\features\\support\\hooks.js:28:40)"
+              "status": "passed",
+              "duration": 188903800
             }
           }
         ],
