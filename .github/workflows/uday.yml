@@ -35,15 +35,11 @@ jobs:
         mkdir -p reports
         mkdir -p test-results
 
-    - name: Clean reports folder
-      run: |
-        rm -rf reports/*
-        rm -rf test-results/*
-
     - name: Run Cucumber tests
       run: |
-        rm -rf reports/* test-results/*
+        npm run clean
         npm run test
+      shell: bash
 
     - name: Upload test results
       if: always()

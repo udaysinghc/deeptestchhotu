@@ -4,7 +4,7 @@
   "description": "Playwright automation framework with Cucumber BDD",
   "main": "index.js",
   "scripts": {
-    "clean": "rd /s /q reports 2>nul || mkdir reports && rd /s /q test-results 2>nul || mkdir test-results",
+    "clean": "rimraf reports && mkdir -p reports && rimraf test-results && mkdir -p test-results",
     "pretest": "npm run clean",
     "test": "cucumber-js --config cucumber.js",
     "test:tag": "cucumber-js --config cucumber.js --tags"
