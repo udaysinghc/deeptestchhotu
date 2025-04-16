@@ -30,17 +30,8 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
 
-    - name: Clean and prepare directories
-      run: |
-        if exist reports rmdir /s /q reports
-        if exist test-results rmdir /s /q test-results
-        mkdir reports
-        mkdir test-results
-      shell: cmd
-
-    - name: Run Cucumber tests
-      run: npm run test
-      shell: cmd
+    - name: Run tests with cleaning
+      run: npm run ci-test
 
     - name: Upload test results
       if: always()
