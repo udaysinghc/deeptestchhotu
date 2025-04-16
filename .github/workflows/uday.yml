@@ -34,6 +34,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Run npm clean test
+      # Clean reports directory and run tests
+      - name: Clean reports directory
+        run: rm -rf reports/* || true
+      
+      # Run tests
       - name: Run tests
-        run: npm run clean test
+        run: npm test
