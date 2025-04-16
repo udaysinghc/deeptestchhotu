@@ -1,0 +1,84 @@
+[
+  {
+    "description": "  As a logged in user\n  I want to access and view my dashboard\n  So that I can see my personalized information and overview",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-functionality;accessing-the-dashboard-after-login",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Accessing the dashboard after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 457472300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user enters username \"testuser1744775890841@internalreai.com\" and password \"Testuser@123\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3099021600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2942126499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click the deep Agent option",
+            "match": {
+              "location": "features\\step_definitions\\dashboard.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582919500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 261085799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dashboard",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard Functionality",
+    "tags": [],
+    "uri": "features\\dashboard.feature"
+  }
+]
