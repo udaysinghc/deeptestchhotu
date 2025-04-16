@@ -41,7 +41,9 @@ jobs:
         rm -rf test-results/*
 
     - name: Run Cucumber tests
-      run: npm run test
+      run: |
+        rm -rf reports/* test-results/*
+        npm run test
 
     - name: Upload test results
       if: always()
