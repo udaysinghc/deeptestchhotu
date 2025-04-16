@@ -36,4 +36,6 @@ jobs:
 
       # Run tests
       - name: Run tests
-        run: npm run test
+        run: |
+          mkdir -p reports
+          npm run test
