@@ -30,8 +30,8 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
 
-    - name: Run tests with cleaning
-      run: npm run ci-test
+    - name: Run tests
+      run: npm test
 
     - name: Upload test results
       if: always()
